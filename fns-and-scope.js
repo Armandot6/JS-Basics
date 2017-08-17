@@ -31,10 +31,10 @@ function getName() {
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-//Code Here
-function welcome() {
-  alert("Welcome, " + getName());
-}
+  //Code Here
+  function welcome() {
+    alert("Welcome, " + getName());
+  }
 
 
 //////////////////PROBLEM 4////////////////////
@@ -44,9 +44,9 @@ function welcome() {
 
 //What is the difference between arguments and parameters?
 
-//Answer Here
-// A parameter is a variable in a method definition. When a method is called
-// A arguments are the data you pass into the method's parameters.
+  //Answer Here
+  // A parameter is a variable in a method definition. When a method is called
+  // A arguments are the data you pass into the method's parameters.
 
 
 //////////////////PROBLEM 5////////////////////
@@ -56,17 +56,17 @@ function welcome() {
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-//Answer Here
-/*
-false
-0 and -0
-"" and ''
-null
-undefined
-NaN
-*/
+  //Answer Here
+  /*
+  false
+  0 and -0
+  "" and ''
+  null
+  undefined
+  NaN
+  */
 
-// check by using if statments
+  // check by using if statments
 
 
 
@@ -77,17 +77,17 @@ NaN
 
 //Create a function called myName that returns your name
 
-//Code Here
-function myName() {
-  return getName();
-}
+  //Code Here
+  function myName() {
+    return getName();
+  }
 
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
-//Code Here
-var newMyName = myName;
+  //Code Here
+  var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 newMyName();
@@ -99,17 +99,17 @@ newMyName();
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
-//Code Here
-function outerFn() {
-  return function() {
-    return newMyName();
-  };
-}
+  //Code Here
+  function outerFn() {
+    return function() {
+      return newMyName();
+    };
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
-//Code Here
-var innerFn = outerFn();
+  //Code Here
+  var innerFn = outerFn();
 
 //Now invoke innerFn.
 innerFn();
