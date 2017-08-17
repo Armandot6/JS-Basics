@@ -6,7 +6,7 @@ var name = 'Tyler';
 
   //Code Here
   function isTyler(name) {
-    if (name = "Tyler") {
+    if (name === "Tyler") {
       return true;
     } else {
       return false;
@@ -20,7 +20,9 @@ var name = 'Tyler';
 
 
   //Code Here
-
+function getName(name) {
+  return name = prompt("Your Name?");l
+}
 
 //////////////////PROBLEM 3////////////////////
 
